@@ -3,4 +3,8 @@ What is the difference between a merge and a rebase?
 With git merge, you update the main branch with the modifications from the feature branch, creating a new commit. 
 Merges keep the logs of the commits intact, but it can get clunky very fast. 
 Meanwhile, git rebase incorporates modifications back into the main branch and removes the logs of the feature branch.
-This means that branch history is much cleaner, but we also cannot keep track of the history of the repo easily. 
+This means that branch history is much cleaner, but we also cannot keep track of the history of the repo easily.
+
+What is a remote repository?
+
+A remote repository is a version of a code project hosted on the Internet that multiple can modify and clone. 
